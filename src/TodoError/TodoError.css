@@ -1,0 +1,12 @@
+.TodoError--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TodoError--icon {
+    color: rgb(133, 234, 221);
+    width: 200px;
+    height: 200px;
+}

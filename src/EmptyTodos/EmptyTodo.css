@@ -1,0 +1,19 @@
+.EmptyTodo--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.EmptyTodo--icon {
+    color: rgb(133, 234, 143);
+    width: 200px;
+    height: 200px;
+}
+
+.EmptyTodo--modal {
+    color: #61DAFA;
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+}

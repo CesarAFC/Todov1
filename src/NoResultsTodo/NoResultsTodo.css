@@ -1,0 +1,12 @@
+.NoResultsTodo--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NoResultsTodo--icon {
+    color: #61DAFA;
+    width: 200px;
+    height: 200px;
+}
