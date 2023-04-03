@@ -1,16 +1,11 @@
 import React from "react";
-import { TodoContext } from "../TodoContext";
 import './TodoForm.css';
 import { HiClipboardList } from "react-icons/hi";
 
-function TodoForm() {
+function TodoForm({addTodo, setOpenModal}) {
 
     const [newTodoValue, setNewTodoValue] = React.useState('');
     const [changePriority, setchangePriority] = React.useState('');
-    const {
-        addTodo,
-        setOpenModal
-    } = React.useContext(TodoContext)
 
     const onCancel = ( ) => {
         setOpenModal(false);

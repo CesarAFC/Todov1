@@ -1,0 +1,39 @@
+.ChangeAlert {
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.changeAlert--card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    background: #fff;
+}
+
+.changeAlert--card > p {
+    color: #1E1E1F;
+}
+
+.RefreshButton { 
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #1E1E1F;
+    font-size: 16px;
+    font-weight: 400;
+    background: #61DAFA;
+    width: 120px;
+    height: 48px;
+    font-family: 'Montserrat';
+}

@@ -8,3 +8,6 @@
 .TodoCounter--icon {
     vertical-align: bottom;
 }
+.TodoCounter--loading {
+    opacity: 25%;
+}

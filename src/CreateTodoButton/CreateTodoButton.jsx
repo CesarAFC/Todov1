@@ -11,10 +11,12 @@ function CreateTodoButton( props ) {
   }
 
   return (
-    <button 
-      className='CreateTodoButton'
-      onClick={ OnClickButton }
-      >+</button>
+    <div className='CreateTodoButton-container'>
+      <button 
+        className='CreateTodoButton'
+        onClick={ OnClickButton }
+        ></button>
+      </div>
   )
 }
 

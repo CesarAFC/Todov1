@@ -1,3 +1,41 @@
+# Simple Todo App
+This is a simple todo app that allows you to keep track of tasks that you need to complete. The app provides basic functionality for creating, editing, and deleting tasks.
+
+# Features
+Create new tasks
+Edit existing tasks
+Mark tasks as completed
+Delete tasks
+View a list of all tasks
+Installation
+
+To use this app, you will need to have Node.js and npm installed on your computer.
+
+Clone this repository to your local machine:
+bash
+Copy code
+git clone https://github.com/your-username/simple-todo-app.git
+Navigate to the project directory:
+bash
+Copy code
+cd simple-todo-app
+Install the dependencies:
+Copy code
+npm install
+Usage
+To start the app, run the following command in your terminal:
+
+sql
+Copy code
+npm start
+Once the app is running, you can open it in your web browser by visiting http://localhost:3000.
+
+# Contributing
+If you would like to contribute to this project, feel free to open a pull request or submit an issue.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
