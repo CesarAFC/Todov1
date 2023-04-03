@@ -2,11 +2,12 @@
 This is a simple todo app that allows you to keep track of tasks that you need to complete. The app provides basic functionality for creating, editing, and deleting tasks.
 
 # Features
-Create new tasks
-Edit existing tasks
-Mark tasks as completed
-Delete tasks
-View a list of all tasks
+* Create new tasks
+* Edit existing tasks
+* Mark tasks as completed
+* Delete tasks
+* View a list of all tasks
+* Search tasks
 
 ## Installation
 ### To use this app, you will need to have Node.js and npm installed on your computer.
